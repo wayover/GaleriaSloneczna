@@ -65,6 +65,9 @@ public class SklepListAdapter extends ArrayAdapter<sklep> {
         return convertView;
     }
 
+
+
+
     private void setupImageLoader(){
         // UNIVERSAL IMAGE LOADER SETUP
         DisplayImageOptions defaultOptions = new DisplayImageOptions.Builder()

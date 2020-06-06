@@ -101,13 +101,6 @@ public class SklepyActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-//                Context context = getApplicationContext();
-//                CharSequence text = "Id="+id+"  pozycja "+position+"  view "+view;
-//                int duration = Toast.LENGTH_SHORT;
-//
-//                Toast toast = Toast.makeText(context, text, duration);
-//                toast.show();
-                ArrayList<sklep> skleplistIntent=new ArrayList<>();
                 Intent intent = new Intent(getApplicationContext(), KonSklepActivity.class);
                 intent.putExtra("nazwa",skleplist.get(position).getNazwa());
                 intent.putExtra("obraz",skleplist.get(position).getImgurl());

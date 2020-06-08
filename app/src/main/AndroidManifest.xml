@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".kino.KinoKontakt"></activity>
+        <activity android:name=".kino.RezerwujActivity"></activity>
+        <activity android:name=".kino.KinoFilm"></activity>
+        <activity android:name=".kino.RepertuarActivity" />
+        <activity android:name=".kino.KinoKontakt" />
         <activity android:name=".kino.KinoCennik" />
         <activity android:name=".KonSklepActivity" />
         <activity android:name=".DojazdActivity" />

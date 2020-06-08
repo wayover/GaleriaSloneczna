@@ -9,6 +9,7 @@ import android.widget.Button;
 
 import com.example.sloneczna.kino.KinoCennik;
 import com.example.sloneczna.kino.KinoKontakt;
+import com.example.sloneczna.kino.RepertuarActivity;
 
 public class KinoActivity extends AppCompatActivity {
 
@@ -43,6 +44,15 @@ public class KinoActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), KinoKontakt.class);
+                startActivity(intent);
+            }
+        });
+
+
+        repertuar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), RepertuarActivity.class);
                 startActivity(intent);
             }
         });

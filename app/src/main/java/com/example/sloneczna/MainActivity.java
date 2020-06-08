@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent);
                 break;
             case R.id.bDojazd:
+                //intent = new Intent(getApplicationContext(), MapsFragment.class);
                 intent = new Intent(getApplicationContext(), DojazdActivity.class);
                 startActivity(intent);
                 break;
